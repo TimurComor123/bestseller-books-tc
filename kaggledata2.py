@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-from lekcija14 import filtered_df
 
 books_df=pd.read_csv('bestsellers_with_categories_2022_03_27.csv')
 
